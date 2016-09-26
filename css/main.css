@@ -1,0 +1,139 @@
+/*************************
+      GENERAL
+**************************/
+
+body {
+	font-family: 'David Libre';
+}
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+a {
+	text-decoration: none;
+
+
+}
+
+img {
+
+	max-width: 100%;
+}
+
+
+
+/*************************
+      HEADING
+**************************/
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 2.90em;
+  font-weight: normal;
+  line-height: 1.8em;
+}
+
+h2 {
+	font-family: 'Slabo 27px', serif;
+	font-size: 1.80em;
+	margin: -55px 0 0;
+	font-weight: normal;
+}
+/*************************
+       Navigation
+**************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0;
+}
+
+
+/*************************
+       FOOTER
+**************************/
+
+
+footer {
+	font-size: 0.70em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #0957CC;
+}
+
+/*************************
+  PAGE Portfolio
+**************************/
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #5f5f5f ;
+	color: #bdc3c7;
+}
+
+#gallery li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #bdc3c7;
+
+}
+
+ /*************************
+       COLORS
+**************************/
+
+body {
+ 	background-color: 
+ }
+
+header {
+ 	background: #086A7F ;
+ 	border-color: #3A737F;
+ }
+
+ nav {
+ 	background: #3A737F;
+ }
+ /**/
+
+ h1, h2 {
+ 	color: #B5F4FF;
+ }
+
+ a {
+	color: #103D7F;
+}
+/**/
+
+ nav a, nav a.visited {
+ 	color: #B0CC56;
+ }
+ nav a.selected  {
+ 	color: #99ff33;
+ }
+
+ nav a.hover {
+ 	color: #DCFF6B;
+ }
+ /*site body*/
+
+ 
