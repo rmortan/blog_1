@@ -1,0 +1,65 @@
+/*************************
+      GENERAL
+**************************/
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+a {
+	text-decoration: none;
+
+
+}
+
+
+
+/*************************
+      HEADING
+**************************/
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+
+
+ /*************************
+       COLORS
+**************************/
+
+body {
+ 	background-color: 
+ }
+
+header {
+ 	background: #6ab47b ;
+ 	border-color: #599a68;
+ }
+
+ nav {
+ 	background: #288000;
+ }
+ /**/
+
+ h1, h2 {
+ 	color: #eeffe6;
+ }
+
+ a {
+	color: #99ff66;
+}
+/**/
+
+ nav a, nav a:visited {
+ 	color: 
+ }
+ nav a.selected, nav a.hover {
+ 	color: #ccff33;
+ }
+ /*site body*/
+
+ 
