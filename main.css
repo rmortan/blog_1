@@ -2,6 +2,10 @@
       GENERAL
 **************************/
 
+body {
+	font-family: 'David Libre';
+}
+
 #wrapper {
 	max-width: 940px;
 	margin: 0 auto;
@@ -25,6 +29,42 @@ a {
 	margin: 0;
 }
 
+h1 {
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 2.90em;
+  font-weight: normal;
+  line-height: 1.8em;
+}
+
+h2 {
+	font-family: 'Slabo 27px', serif;
+	font-size: 1.80em;
+	margin: -55px 0 0;
+	font-weight: normal;
+}
+/*************************
+       Navigation
+**************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0;
+}
+
+
+/*************************
+       FOOTER
+**************************/
+
+
+footer {
+	font-size: 0.70em;
+	text-align: center;
+	padding-top: 50px;
+	color: #0957CC;
+}
+
 
 
  /*************************
@@ -36,29 +76,33 @@ body {
  }
 
 header {
- 	background: #6ab47b ;
- 	border-color: #599a68;
+ 	background: #086A7F ;
+ 	border-color: #3A737F;
  }
 
  nav {
- 	background: #288000;
+ 	background: #3A737F;
  }
  /**/
 
  h1, h2 {
- 	color: #eeffe6;
+ 	color: #B5F4FF;
  }
 
  a {
-	color: #99ff66;
+	color: #103D7F;
 }
 /**/
 
- nav a, nav a:visited {
- 	color: 
+ nav a, nav a.visited {
+ 	color: #B0CC56;
  }
- nav a.selected, nav a.hover {
- 	color: #ccff33;
+ nav a.selected  {
+ 	color: #99ff33;
+ }
+
+ nav a.hover {
+ 	color: #DCFF6B;
  }
  /*site body*/
 
