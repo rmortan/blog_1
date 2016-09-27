@@ -23,6 +23,9 @@ img {
 	max-width: 100%;
 }
 
+h3 {
+	margin: 0 0 1em 0;
+}
 
 
 /*************************
@@ -57,6 +60,14 @@ nav {
 	margin: 20px 0;
 }
 
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
 
 /*************************
        FOOTER
@@ -69,6 +80,12 @@ footer {
 	clear: both;
 	padding-top: 50px;
 	color: #0957CC;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px
+	margin: 0 5px;
 }
 
 /*************************
@@ -96,10 +113,46 @@ footer {
 	color: #bdc3c7;
 
 }
-
- /*************************
-       COLORS
+/*************************
+PAGE: CONTACT
 **************************/
+
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+}
+
+.contact-info li.phone a {
+	background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+	background-image: url('../img/twitter.png');
+}
+
+/*************************
+COLORS
+**************************/
+.profile-photo {
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
+}
 
 body {
  	background-color: 
@@ -113,6 +166,7 @@ header {
  nav {
  	background: #3A737F;
  }
+
  /**/
 
  h1, h2 {
@@ -124,16 +178,13 @@ header {
 }
 /**/
 
- nav a, nav a.visited {
- 	color: #B0CC56;
- }
- nav a.selected  {
- 	color: #99ff33;
- }
+ nav a {
+  color: #fff;
+}
 
- nav a.hover {
- 	color: #DCFF6B;
- }
+nav a:hover {
+  color:  #ffff99;
+}
  /*site body*/
 
  
