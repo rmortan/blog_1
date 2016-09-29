@@ -1,71 +1,105 @@
 @media screen and (min-width: 480px) {
 	
-
-/*************************
+	
+ /*************************
   two column layout
-**************************/
-  #primary {
-  	width: 50%;
-  	float: left;
+ **************************/
+	#primary {
+  	 width: 50%;
+  	 float: left;
   }
    
-  #secondary {
-  	width: 40%;
-  	float: right;
+	#secondary {
+  	 width: 40%;
+  	 float: right;
   }
 
-/*************************
-i want 3 columns times 5 for each side of space taken up in persentages so thus
-3*5=15%  then we subtract 15% from 100% from full width, leaving us 85% 
-we now devide 85 into 3 = giving us 28.3333333333333 the more accurate in these number
-the better the results.
-**************************/
+ /*************************
+ i want 3 columns times 5 for each side of space taken up in persentages so thus
+ 3*5=15%  then we subtract 15% from 100% from full width, leaving us 85% 
+ we now devide 85 into 3 = giving us 28.3333333333333 the more accurate in these number
+ the better the results.
+ **************************/
 
 
-/*************************
+ /*************************
  PAGE:PORFOLIO
-**************************/
+ **************************/
 
-#gallery li {
-	width: 28.3333%;
-}
+	#gallery li {
+	 width: 28.3333%;
+  }
 
-#gallery li:nth-child(4n) {
-	clear: left;
-}
+	#gallery li:nth-child(4n) {
+	 clear: left;
+  }
+ 
 
 
-
-/*************************
+ /*************************
  PAGE:ABOUT
-**************************/
+ **************************/
 
-.profile-photo {
-	float: left;
-	margin: 0 5% 80 0;
+	.profile-photo {
+	 float: left;
+	 margin: 0 5% 80px 0;
+  }
 }
-
-
-
-
-}
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 1960px) {
 	
 
 
 
-/*************************
+ /*************************
  HEADER
-**************************/
+ **************************/
 
-nav {
+
+ nav {
 	background: none;
 	float: right;
 	font-size: 1.125em;
 	margin-right: 5%;
+	text-align: right;
 	width: 45%;
+ }
+
+	#logo {
+		float: left;
+		margin-left: 2%;
+		text-align: left;
+	    width: 45%;
+ }
+
+
+ h1 {
+	font-size: 2.5em;
+
+ }
+
+ h2 {
+	font-size: 0.825em;
+	margin-bottom: 20px;
+ }
+ header {
+	border-bottom: 5px solid #599a68;
+	margin-bottom: 60px;
 }
 
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
 }
 
 
+
+
+
+
+
+
+
+
+}
