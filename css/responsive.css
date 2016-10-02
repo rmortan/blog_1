@@ -27,12 +27,11 @@
  **************************/
 
 	#gallery li {
-	 width: 28.3333%;
+	 width: 25%;
+  	 clea
   }
 
-	#gallery li:nth-child(4n) {
-	 clear: left;
-  }
+	
  
 
 
@@ -84,22 +83,13 @@
  header {
 	border-bottom: 5px solid #599a68;
 	margin-bottom: 60px;
-}
+ }
 
 
-.social-icon {
+ .social-icon {
 	width: 20px;
 	height: 20px;
 	margin: 0 5px;
-}
-
-
-
-
-
-
-
-
-
+ }
 
 }

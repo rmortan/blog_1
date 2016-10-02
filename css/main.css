@@ -7,7 +7,7 @@ body {
 }
 
 #wrapper {
-	max-width: 980px;
+	max-width: 940px;
 	margin: 0 auto;
 	padding: 0 5%;
 }
@@ -22,6 +22,7 @@ img {
 
 h3 {
 	margin: 0 0 1em 0;
+	font-weight: 800;
 }
 
 
@@ -29,6 +30,12 @@ h3 {
 /*************************
       HEADING
 **************************/
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
 
 #logo {
 	text-align: center;
@@ -37,16 +44,17 @@ h3 {
 
 h1 {
   font-family: 'Baloo Bhai', cursive;
-  font-size: 1.90em;
+  margin: 15px 0;
+  font-size: 1.75em;
   font-weight: normal;
-  line-height: 1.8em;
+  line-height: 0.8em;
 }
 
 h2 {
-	font-family: 'Slabo 27px', serif;
-	font-size: 1.40em;
-	margin: -5px 0 0;
+	font-size: 0.75em;
+	margin: 15px 0;
 	font-weight: normal;
+	
 }
 /*************************
        Navigation
