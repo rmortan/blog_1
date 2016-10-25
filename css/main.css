@@ -11,6 +11,7 @@ body {
   padding: 0 5%;}
 
 a {
+  display: inline;
   text-decoration: none;}
 
 img {
@@ -88,6 +89,12 @@ footer {
   height: 20px;
   margin: 0 5px;}
 
+.callout {
+  font-size: 1.25em;
+  border-bottom: 3px solid;
+  padding: 0 9px 3px;
+  margin-top: 20px;
+  display: inline-block;}
 
 
 /**********************************
@@ -103,15 +110,15 @@ PAGE: PORTFOLIO
   float: left;
   width: 45%;
   margin: 2.5%;
-  background-color: #f5f5f5;
+  background-color: #800000;
   color: #bdc3c7;}
 
 #gallery li a p {
   margin: 0;
   padding: 5%;
   font-size: 0.75em;
-  color: #bdc3c7;
-  box-shadow: 5px 9px;}
+  color: #330000;
+  box-shadow: 5px 9px 10px 5px;}
 
 
 
@@ -121,7 +128,7 @@ PAGE: ABOUT
 ***********************************/
 
 .profile-photo {
-  display: block;
+  display: inline-block;
   max-width: 150px;
   margin: 0 auto 30px;
   border-radius: 100%;}
@@ -173,7 +180,7 @@ header {
 
 /* nav background on mobile */
 nav {
-  background: #599a68;}
+  background: #660000;}
 
 /* logo text */
 h1, h2 {
@@ -188,7 +195,11 @@ nav a, nav a:visited {
   color: #fff;}
 
 /* selected nav link */
-nav a.selected, nav a:hover {
-  color: #32673f;}
+nav a.selected {
+  color: #e6ff99;}
+
+nav a:hover {
+	color: #ff9999;
+}
 
 
