@@ -293,9 +293,7 @@ nav ol {
  * 2. Improve image quality when scaled in IE 7.
  */
 
-img {
-    border: 0; /* 1 */
-    -ms-interpolation-mode: bicubic;}
+
 
 /**
  * Correct overflow displayed oddly in IE 9.
@@ -487,4 +485,94 @@ textarea {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+/**********************************
+picshow
+***********************************/
+
+* {margin: 0; padding: 0;}
+
+body {
+  <!-- src: http://subtlepatterns.com/?p=1045 -->
+  background: url('dark_geometric.png');}
+
+#container {
+  width: 100%;
+  padding: 0px 0px 0px 0px;  
+  overflow: hidden;
+  margin: 50px auto;
+  background: #90080866;}
+
+/*header*/
+
+
+/*photobanner*/
+
+.photobanner {
+  height: 350px;
+  width: 100%;
+  margin-bottom: 80px;}
+
+.photobanner img {
+    width: auto;
+    height: auto;}
+
+/*now we bring it to life*/
+/*keyframe animations*/
+.first {
+  -webkit-animation: bannermove 20s linear infinite;
+     -moz-animation: bannermove 20s linear infinite;
+      -ms-animation: bannermove 20s linear infinite;
+       -o-animation: bannermove 20s linear infinite;
+          animation: bannermove 20s linear infinite;
+}
+
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+
+}
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
 }
