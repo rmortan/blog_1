@@ -53,6 +53,17 @@ h2 {
   margin: -5px 0 0;
   font-weight: normal;}
 
+h3 {
+  color: #4d0000;}
+
+h4 {
+  
+  color: #ffcccc;}
+
+.solo {
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;}
+
 /**********************************
 NAVIGATION
 ***********************************/
@@ -86,8 +97,8 @@ footer {
   text-align: center;
   clear: both;
   padding: 11px 0px 0px 0px;
-  margin: 20px 0px 0px 0px;
-  color: #f00909;}
+  margin: 7px 0px 0px 0px;
+  color: #330000;}
 
 .social-icon {
   width: 20px;
@@ -121,10 +132,8 @@ PAGE: PORTFOLIO
 #gallery li a p {
   margin: 0;
   padding: 5%;
-  font-size: 0.75em;
-  color: #330000;
-  box-shadow: 5px 9px 10px 5px;
-  font-color: #f5efee;}
+  font-size: 0.95em;  
+  box-shadow: 5px 9px 10px 5px #330000;}
 
 
 
@@ -176,7 +185,7 @@ COLORS
 /* site body */
 body {
   background-color: #fff;
-  color: #999;}
+  color: #330000;}
 
 /* green header */
 header {
@@ -194,6 +203,14 @@ h1, h2 {
   color: #fff;}
 
 /* links */
+ul li a {
+  color: #330000;}
+
+ul li a:hover {
+  color: #ff6633;}
+ul li a p {
+   color: #ffece6;}
+
 a {
   color: #d4bc0c99;}
 
@@ -208,5 +225,4 @@ nav a.selected {
 nav a:hover {
 	color: #1a53ff;
 }
-
 
