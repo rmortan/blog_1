@@ -37,8 +37,14 @@ p {
   margin: 5px 0px 8px 4px;}
 
 .pheader {
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 1.3rem;
   background-color: #cccc0080;
-  margin: -10px 0px 0px 0px;
+  padding: 0px 0px 0px 15px;
+  margin: 1px 0px -4px 0px;
+  border-bottom: 1px dotted;
+  border-top: 2px ridge #cb0b04b3;
   box-shadow: 8px 19px 21px 33px;}
 
 #logo {
@@ -83,7 +89,9 @@ nav {
 nav ul li {
   display: inline;
   list-style: none;
-  background-color: #8c650880;
+  background-color: #443104e6;
+  border-radius: 4px;
+  box-shadow: -1px 6px 12px 5px;
   margin: 0px 10px 0px 0px ;
   padding: 0px 0px 0px 0px;}
 
