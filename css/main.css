@@ -1,5 +1,5 @@
 /**********************************
-GENERAL
+ENERAL
 ***********************************/
 
 body {
@@ -35,6 +35,11 @@ p {
   display: block;
   padding: 6px 7px 0px 20px;
   margin: 5px 0px 8px 4px;}
+
+.pheader {
+  background-color: #cccc0080;
+  margin: -10px 0px 0px 0px;
+  box-shadow: 8px 19px 21px 33px;}
 
 #logo {
   text-align: center;
@@ -78,6 +83,7 @@ nav {
 nav ul li {
   display: inline;
   list-style: none;
+  background-color: #8c650880;
   margin: 0px 10px 0px 0px ;
   padding: 0px 0px 0px 0px;}
 
@@ -195,8 +201,7 @@ header {
   margin: -10px 0px 25px 0px;}
 
 /* nav background on mobile */
-nav {
-  background: #660000;}
+
 
 /* logo text */
 h1, h2 {
@@ -215,14 +220,12 @@ a {
   color: #d4bc0c99;}
 
 /* nav link */
-nav a, nav a:visited {
-  color: #990099;}
+nav a:visited {
+  color: #b79f8780;}
 
 /* selected nav link */
 nav a.selected {
-  color: #e6ff99;}
+  color: #808000;}
 
-nav a:hover {
-	color: #1a53ff;
-}
 
+   
