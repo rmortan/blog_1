@@ -7,15 +7,19 @@ body {
 
 #wrapper {
   max-width: 940px;
-  margin: 0 auto;
-  padding: 0px 0px 0p 5px;}
+  margin: 0 auto;}
 
 a {
   display: inline;
   text-decoration: none;}
 
 img {
-  max-width: 100%;}
+  max-width: 100%;
+  border-style: solid;
+  border-radius: 3px;
+  box-shadow: 2px 14px 7px 12px;
+  padding: 0px 0px 0px 0px;
+  margin: 3px 1px 3px -3px; }
 
 h3 {
   margin: 0 0 1em 0;}
@@ -95,6 +99,9 @@ nav ul li {
   margin: 0px 10px 0px 0px ;
   padding: 0px 0px 0px 0px;}
 
+nav ul li a img {
+   ;}
+
 
 nav a {
   font-weight: 600;
@@ -139,15 +146,18 @@ PAGE: PORTFOLIO
 #gallery li {
   float: left;
   width: 45%;
+  padding: 1px 10px 0px 1px;
   margin: 2.5%;
   background-color: #800000;
-  color: #bdc3c7;}
+  box-shadow: 15px 12px 8px 6px;
+  border-radius: 5px;
+  color: #4a030099;}
 
 #gallery li a p {
   margin: 0;
   padding: 5%;
-  font-size: 0.95em;  
-  box-shadow: 5px 9px 10px 5px #330000;}
+  font-size: 1.5em;  
+  box-shadow: 5px 9px 10px 5px #F9FF0033;}
 
 
 
