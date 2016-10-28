@@ -17,7 +17,7 @@ img {
   max-width: 100%;
   border-style: solid;
   border-radius: 3px;
-  box-shadow: 2px 14px 7px 12px;
+  box-shadow: 7px -1px 21px 7px;
   padding: 0px 0px 0px 0px;
   margin: 3px 1px 3px -3px; }
 
@@ -49,7 +49,7 @@ p {
   margin: 1px 0px -4px 0px;
   border-bottom: 1px dotted;
   border-top: 2px ridge #cb0b04b3;
-  box-shadow: 8px 19px 21px 33px;}
+  box-shadow: 15px 8px 27px 23px;}
 
 #logo {
   text-align: center;
@@ -121,14 +121,24 @@ footer {
   margin: 7px 0px 0px 0px;
   color: #330000;}
 
+.footericon {
+  max-width: 100%;
+  border-radius: 3px;
+  box-shadow: 7px -1px 21px 7px;
+  padding: 0px 0px 0px 0px;
+  margin: 3px 1px 3px -3px; }
+
+
 .social-icon {
-  width: 20px;
-  height: 20px;
-  margin: 0 5px;}
+  width: 30px;
+  height: 30px;
+  margin: 0 9px;}
 
 .callout {
-  font-size: 1.25em;
-  border-bottom: 3px solid;
+  background-color: #802b00;
+  font-size: 1.13em;
+  border: 2px solid;
+  border-radius: 7px;
   padding: 0 9px 3px;
   margin-top: 20px;
   display: inline-block;}
@@ -156,7 +166,7 @@ PAGE: PORTFOLIO
 #gallery li a p {
   margin: 0;
   padding: 5%;
-  font-size: 1.5em;  
+  font-size: 1.1em;  
   box-shadow: 5px 9px 10px 5px #F9FF0033;}
 
 
@@ -236,6 +246,12 @@ ul li a p {
 
 a {
   color: #d4bc0c99;}
+
+footer a  img {
+  color: #322d2d99;
+  padding: 0px 0px 0px 0px;
+  box-shadow: 3px 3px 2px 1px;
+  border: thin;}
 
 /* nav link */
 nav a:visited {
