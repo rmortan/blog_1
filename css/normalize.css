@@ -478,7 +478,7 @@ picshow
 * {margin: 0; padding: 0;}
 
 body {
-  <!-- src: http://subtlepatterns.com/?p=1045 -->
+ src: http://subtlepatterns.com/?p=1045 
   background: url('dark_geometric.png');}
 
 #container {
@@ -494,14 +494,14 @@ body {
 /*photobanner*/
 
 .photobanner {
-  height: 278px;
+  height: 365px;
   width: 100%;
   margin-bottom: 80px;}
 
 .photobanner img {
     width: 285px;
     height: 430px;
-    padding: 0px 25px 0px 30px}
+    padding: 0px 0px 0px 0px;}
 
 /*now we bring it to life*/
 /*keyframe animations*/
@@ -534,7 +534,7 @@ body {
  100% {
    margin-left: -2125px;}
 
-
+}
 
 @-ms-keyframes "bannermove" {
  0% {
@@ -542,7 +542,7 @@ body {
  100% {
    margin-left: -2125px;}
 
-
+}
 
 @-o-keyframes "bannermove" {
  0% {
@@ -550,4 +550,4 @@ body {
  100% {
    margin-left: -2125px;}
 
-
+}

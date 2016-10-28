@@ -16,10 +16,20 @@ a {
 img {
   max-width: 100%;
   border-style: solid;
-  border-radius: 3px;
+  border-radius: 5px;
   box-shadow: 7px -1px 21px 7px;
   padding: 0px 0px 0px 0px;
-  margin: 3px 1px 3px -3px; }
+  margin: 10px 18px 0px 15px;}
+
+div img {
+  padding: 0px 0px 0px 0px;
+  max-width: 100%;
+  border-style: solid;
+  border-radius: 13px;
+  box-shadow: 0px 0px 0px 0px;
+  margin: 5px 15px 0px 2px;}
+
+
 
 h3 {
   margin: 0 0 1em 0;}
